@@ -9,7 +9,7 @@ const Header = () => (
       {'Space Travelers\' Hub'}
     </NavLink>
     <nav>
-      <NavLink to="/">Rocket</NavLink>
+      <NavLink to="/">Rockets</NavLink>
       <NavLink to="/mission">Mission</NavLink>
       <hr />
       <NavLink to="/profile">Profile</NavLink>
