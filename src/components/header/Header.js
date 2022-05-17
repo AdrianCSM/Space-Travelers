@@ -14,7 +14,7 @@ const Header = () => (
       <NavLink to="/">Rockets</NavLink>
       <NavLink to="/mission">Mission</NavLink>
       <hr />
-      <NavLink to="/profile">Profile</NavLink>
+      <NavLink to="/profile">My Profile</NavLink>
     </nav>
   </header>
 );
