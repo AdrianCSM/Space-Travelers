@@ -9,11 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-
         <Route path="/" element={<Rockets />} />
-
         <Route path="/profile" element={<Profile />} />
-
       </Routes>
     </div>
   );
