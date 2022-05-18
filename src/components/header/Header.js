@@ -19,7 +19,7 @@ const Header = () => (
       </NavLink>
       <NavLink
         className={(navData) => (navData.isActive ? 'underline text-slate-600' : '')}
-        to="/mission"
+        to="/missions"
       >
         Mission
       </NavLink>
