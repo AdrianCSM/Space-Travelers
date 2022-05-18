@@ -11,10 +11,25 @@ const Header = () => (
       </span>
     </NavLink>
     <nav className="flex flex-row gap-3 justify-between items-center">
-      <NavLink to="/">Rockets</NavLink>
-      <NavLink to="/mission">Mission</NavLink>
-      <hr />
-      <NavLink to="/profile">My Profile</NavLink>
+      <NavLink
+        className={(navData) => (navData.isActive ? 'underline text-slate-600' : '')}
+        to="/"
+      >
+        Rocket
+      </NavLink>
+      <NavLink
+        className={(navData) => (navData.isActive ? 'underline text-slate-600' : '')}
+        to="/mission"
+      >
+        Mission
+      </NavLink>
+      <div className="w-2 h-4 border-r-2 border-black" />
+      <NavLink
+        className={(navData) => (navData.isActive ? 'underline text-slate-600' : '')}
+        to="/profile"
+      >
+        Profile
+      </NavLink>
     </nav>
   </header>
 );
