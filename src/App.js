@@ -1,16 +1,19 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/header/Header';
-import Missions from './routes/missions/missions';
+import Header from './components/header/Header';
+import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
+import Missions from './routes/missions/Missions';
+import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <Routes>
-        <Route path="/" element={<Missions />} />
+        <Route path="/" element={<Rockets />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
   );
