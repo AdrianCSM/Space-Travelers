@@ -3,7 +3,8 @@ import Header from './components/header/Header';
 // eslint-disable-next-line import/extensions
 import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
-import Missions from './routes/missions/Missions';
+// eslint-disable-next-line import/extensions
+import Missions from './routes/missions/Missions.js';
 import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
