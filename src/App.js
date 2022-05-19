@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
 // eslint-disable-next-line import/extensions
-import Missions from './routes/missions/Missions.js';
+import Missions from './routes/missions/missions.js';
 import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
