@@ -1,9 +1,11 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
-import Rockets from './store/rockets/Rockets';
-import Missions from './store/missions/Missions';
-import Profile from './store/profile/Profile';
+// eslint-disable-next-line import/extensions
+import Rockets from './routes/rockets/Rockets';
+import Profile from './routes/profile/Profile';
+// eslint-disable-next-line import/extensions
+import Missions from './routes/missions/Missions.js';
+import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Rockets />} />
         <Route path="/missions" element={<Missions />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
   );
