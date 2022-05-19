@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
+// eslint-disable-next-line import/extensions
 import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
 import Missions from './routes/missions/Missions';
