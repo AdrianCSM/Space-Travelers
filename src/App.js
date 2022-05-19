@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Rockets />} />
+        <Route path="/missions" element={<Missions />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/missions" element={<Missions />} />
         <Route path="*" element={<NoMatch />} />
