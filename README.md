@@ -54,14 +54,14 @@
 👤 **Adrian Cosmin**
 
 - GitHub: [@AdrianCSM](https://github.com/AdrianCSM)
-- Twitter: [@](https://twitter.com/CosminAdriannn)
+- Twitter: [@CosminAdriann](https://twitter.com/CosminAdriann)
 - LinkedIn: [Adrian Cosmin](https://www.linkedin.com/in/gheorghita-cosmin-adrian-b7781122a/)
 
 👤 **Alfred Bisimwa**
 
 - GitHub: [@Alfred Biswima](https://github.com/Alfredbis29)
 - Twitter: [@AlfredBisimwa1](https://twitter.com/alfredbisimwa1)
-- LinkedIn: [Alfred Bisimwa]()
+- LinkedIn: [Alfred Bisimwa](https://www.linkedin.com/in/alfred-bisimwa-0501a81a8/)
 
 ## Show your support
 
