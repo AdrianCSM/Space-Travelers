@@ -1,10 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
-// eslint-disable-next-line import/extensions
 import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
 // eslint-disable-next-line import/extensions
-import Missions from './routes/missions/Missions.js';
+import Missions from './routes/missions/missions';
 import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
