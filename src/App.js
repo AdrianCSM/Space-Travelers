@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import Rockets from './routes/rockets/Rockets';
 import Profile from './routes/profile/Profile';
+// eslint-disable-next-line import/extensions
 import Missions from './routes/missions/Missions';
 import NoMatch from './routes/noMatch/NoMatch';
 
